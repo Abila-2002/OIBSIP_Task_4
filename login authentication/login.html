@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication System</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <img src="login.png">
+        <div class="box">
+            <h1 class="login-heading">Register/Login</h1>
+            <div class="button-box">
+                <button type="button" class="btn" id="register-btn">Register</button>
+                <button type="button" class="btn" id="login-btn">Login</button>
+            </div>
+            <form class="input" id="register-form">
+                <input type="text" class="field" placeholder="User Name" required>
+                <input type="email" class="field" placeholder="Email Id" required>
+                <input type="password" class="field" placeholder="Enter Password" required>
+                <button type="submit" class="sum-btn">Register Now</button>
+            </form>
+            <form class="input" id="login-form">
+                <input type="text" class="field" placeholder="User Name" required>
+                <input type="password" class="field" placeholder="Enter Password" required>
+                <button type="submit" class="sum-btn">Login Now</button>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
